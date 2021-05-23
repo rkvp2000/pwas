@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/static/css/searchBar.css">
+
+<div class="searchBarMainContainer">
+    <div class="searchBarLeftContainer">
+        
+        <input id="searchInput" type="text" placeholder="PWA Name..." class="browser-default">
+        
+        
+
+        <div class="pwaSuggestionsListContainer">
+            <div class="pwaSuggestion">
+                <div class="pwaSuggestionLogo"><img src="http://res.cloudinary.com/dejpqcefw/image/upload/v1615136890/pnjz55vtfmqmycea80ww.jpg" alt="logo"></div>
+                <div class="pwaSuggestionName">pwa</div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="searchBarRightContainer">
+       
+        <div id="loginRegisterBtn-top"><a style="margin-right: .3em;" href="/login"  >Login</a>|<a style="margin-left: .3em;" href="/register"  >Register</a></div>
+        
+        <a href="/logout" style="display: none; " id="logoutBtn-top">Logout</a>
+        <!-- <i class="material-icons">account_circle</i> -->
+    </div>
+</div>
+
+<div class="pwaSuggestionsListOuterContainer"></div>
+
+<script src="/static/js/searchBar.js"></script>
